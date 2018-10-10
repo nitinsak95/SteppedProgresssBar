@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7BC0E0CF7E5814E42698657F /* Pods_SteppedProgresssBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE1260C4722AA8426F9F41B /* Pods_SteppedProgresssBar.framework */; };
 		A4273C50208F00BD00545951 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4273C4F208F00BD00545951 /* AppDelegate.swift */; };
 		A4273C52208F00BD00545951 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4273C51208F00BD00545951 /* ViewController.swift */; };
 		A4273C55208F00BD00545951 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4273C53208F00BD00545951 /* Main.storyboard */; };
 		A4273C57208F00BD00545951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4273C56208F00BD00545951 /* Assets.xcassets */; };
 		A4273C5A208F00BD00545951 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4273C58208F00BD00545951 /* LaunchScreen.storyboard */; };
+		A4273C62208F0E1F00545951 /* TeamProgressPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4273C61208F0E1F00545951 /* TeamProgressPageVC.swift */; };
+		A4273C64208F0E6F00545951 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4273C63208F0E6F00545951 /* FirstViewController.swift */; };
+		A4273C66208F0E7A00545951 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4273C65208F0E7A00545951 /* SecondViewController.swift */; };
+		A4273C68208F0E8300545951 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4273C67208F0E8300545951 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,13 @@
 		A4273C56208F00BD00545951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4273C59208F00BD00545951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4273C5B208F00BD00545951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4273C61208F0E1F00545951 /* TeamProgressPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamProgressPageVC.swift; sourceTree = "<group>"; };
+		A4273C63208F0E6F00545951 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		A4273C65208F0E7A00545951 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A4273C67208F0E8300545951 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		E7A40D4B2B16EF4E9A10EFEF /* Pods-SteppedProgresssBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SteppedProgresssBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SteppedProgresssBar/Pods-SteppedProgresssBar.debug.xcconfig"; sourceTree = "<group>"; };
+		EEE1260C4722AA8426F9F41B /* Pods_SteppedProgresssBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SteppedProgresssBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBDF94FD67B41F756554CD55 /* Pods-SteppedProgresssBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SteppedProgresssBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-SteppedProgresssBar/Pods-SteppedProgresssBar.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BC0E0CF7E5814E42698657F /* Pods_SteppedProgresssBar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0976A6B541C0B06FCFF5DEBB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7A40D4B2B16EF4E9A10EFEF /* Pods-SteppedProgresssBar.debug.xcconfig */,
+				FBDF94FD67B41F756554CD55 /* Pods-SteppedProgresssBar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6C322142DC4A133703BDD9F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEE1260C4722AA8426F9F41B /* Pods_SteppedProgresssBar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A4273C43208F00BD00545951 = {
 			isa = PBXGroup;
 			children = (
 				A4273C4E208F00BD00545951 /* SteppedProgresssBar */,
 				A4273C4D208F00BD00545951 /* Products */,
+				0976A6B541C0B06FCFF5DEBB /* Pods */,
+				6C322142DC4A133703BDD9F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +92,10 @@
 				A4273C56208F00BD00545951 /* Assets.xcassets */,
 				A4273C58208F00BD00545951 /* LaunchScreen.storyboard */,
 				A4273C5B208F00BD00545951 /* Info.plist */,
+				A4273C61208F0E1F00545951 /* TeamProgressPageVC.swift */,
+				A4273C63208F0E6F00545951 /* FirstViewController.swift */,
+				A4273C65208F0E7A00545951 /* SecondViewController.swift */,
+				A4273C67208F0E8300545951 /* ThirdViewController.swift */,
 			);
 			path = SteppedProgresssBar;
 			sourceTree = "<group>";
@@ -71,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4273C5E208F00BD00545951 /* Build configuration list for PBXNativeTarget "SteppedProgresssBar" */;
 			buildPhases = (
+				FE46B11F7D8CC026473A9A15 /* [CP] Check Pods Manifest.lock */,
 				A4273C48208F00BD00545951 /* Sources */,
 				A4273C49208F00BD00545951 /* Frameworks */,
 				A4273C4A208F00BD00545951 /* Resources */,
+				302991E7FD5D9C8F1D1C8BF7 /* [CP] Embed Pods Frameworks */,
+				6C77883CA541828003C2CCF8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,6 +170,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		302991E7FD5D9C8F1D1C8BF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SteppedProgresssBar/Pods-SteppedProgresssBar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FlexibleSteppedProgressBar/FlexibleSteppedProgressBar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlexibleSteppedProgressBar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SteppedProgresssBar/Pods-SteppedProgresssBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C77883CA541828003C2CCF8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SteppedProgresssBar/Pods-SteppedProgresssBar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE46B11F7D8CC026473A9A15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SteppedProgresssBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A4273C48208F00BD00545951 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -138,6 +231,10 @@
 			files = (
 				A4273C52208F00BD00545951 /* ViewController.swift in Sources */,
 				A4273C50208F00BD00545951 /* AppDelegate.swift in Sources */,
+				A4273C62208F0E1F00545951 /* TeamProgressPageVC.swift in Sources */,
+				A4273C66208F0E7A00545951 /* SecondViewController.swift in Sources */,
+				A4273C68208F0E8300545951 /* ThirdViewController.swift in Sources */,
+				A4273C64208F0E6F00545951 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,9 +369,11 @@
 		};
 		A4273C5F208F00BD00545951 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7A40D4B2B16EF4E9A10EFEF /* Pods-SteppedProgresssBar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YHKB8C6MSB;
 				INFOPLIST_FILE = SteppedProgresssBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = affixus.SteppedProgresssBar;
@@ -286,9 +385,11 @@
 		};
 		A4273C60208F00BD00545951 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBDF94FD67B41F756554CD55 /* Pods-SteppedProgresssBar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YHKB8C6MSB;
 				INFOPLIST_FILE = SteppedProgresssBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = affixus.SteppedProgresssBar;
